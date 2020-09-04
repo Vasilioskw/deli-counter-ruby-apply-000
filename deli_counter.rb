@@ -13,10 +13,16 @@ def line(counter)
   end
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
-end
+def teake_a_number(katz_deli)
+  counter = 0
+  counter = counter + 1
+  katz_deli.push(counter)
+  puts "welcome, you are #{counter}"
+
+# def take_a_number(katz_deli, name)
+#   katz_deli.push(name)
+#   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+# end
 
 def now_serving(katz_deli)
   if katz_deli.length > 0
