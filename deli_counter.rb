@@ -13,11 +13,13 @@ def line(counter)
   end
 end
 
-def teake_a_number(katz_deli)
+def take_a_number(katz_deli)
   counter = 0
   counter = counter + 1
   katz_deli.push(counter)
-  puts "welcome, you are #{counter}"
+  puts "welcome, you are #{counter}."
+
+end
 
 # def take_a_number(katz_deli, name)
 #   katz_deli.push(name)
